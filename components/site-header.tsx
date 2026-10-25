@@ -48,7 +48,6 @@ export function SiteHeader() {
 
   return (
     <>
-
       <header className="navbar" ref={headerRef}>
         <div className="container nav-inner">
           <Brand />

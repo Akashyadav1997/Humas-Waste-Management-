@@ -42,7 +42,9 @@ export default function ContactPage() {
       return;
     }
 
-    const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY;
+    const accessKey =
+      (typeof window !== "undefined" && (window as unknown as { __WEB3FORMS_KEY?: string }).__WEB3FORMS_KEY) ||
+      process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY;
     const isKeyConfigured = Boolean(
       accessKey && accessKey.trim() !== "" && accessKey !== "your_access_key_here"
     );
