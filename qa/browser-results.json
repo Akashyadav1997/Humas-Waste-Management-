@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "h1Count": 1,
+      "imageFailures": [],
+      "brokenAnchors": [],
+      "bodyFont": "Inter, \"Inter Fallback\", Arial, sans-serif",
+      "headingFont": "Manrope, \"Manrope Fallback\", Arial, sans-serif",
+      "reducedMotion": "auto",
+      "title": "Humus Waste & Energy Management | A Circular Future"
+    },
+    {
+      "viewport": 768,
+      "documentWidth": 768,
+      "h1Count": 1,
+      "imageFailures": [],
+      "brokenAnchors": [],
+      "bodyFont": "Inter, \"Inter Fallback\", Arial, sans-serif",
+      "headingFont": "Manrope, \"Manrope Fallback\", Arial, sans-serif",
+      "reducedMotion": "auto",
+      "title": "Humus Waste & Energy Management | A Circular Future"
+    },
+    {
+      "viewport": 390,
+      "documentWidth": 390,
+      "h1Count": 1,
+      "imageFailures": [],
+      "brokenAnchors": [],
+      "bodyFont": "Inter, \"Inter Fallback\", Arial, sans-serif",
+      "headingFont": "Manrope, \"Manrope Fallback\", Arial, sans-serif",
+      "reducedMotion": "auto",
+      "title": "Humus Waste & Energy Management | A Circular Future"
+    },
+    {
+      "mobileMenu": "Enter opens; Escape closes and restores focus; navigation closes menu",
+      "partnershipCta": "Navigates to contact details pending section"
+    },
+    {
+      "viewport": 320,
+      "documentWidth": 320,
+      "h1Count": 1,
+      "imageFailures": [],
+      "brokenAnchors": [],
+      "bodyFont": "Inter, \"Inter Fallback\", Arial, sans-serif",
+      "headingFont": "Manrope, \"Manrope Fallback\", Arial, sans-serif",
+      "reducedMotion": "auto",
+      "title": "Humus Waste & Energy Management | A Circular Future"
+    }
+  ],
+  "consoleErrors": []
+}
