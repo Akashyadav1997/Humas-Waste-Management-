@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { site } from "@/content/site";
 import {
   AlertCircle,
   ArrowUpRight,
@@ -8,8 +9,7 @@ import {
   ChevronDown,
   Loader2,
   Mail,
-  MapPin,
-  Phone,
+  Building2,
   Send,
   ShieldCheck,
 } from "lucide-react";
@@ -124,7 +124,7 @@ export default function ContactPage() {
           </h1>
           <p>
             For prospective feedstock collaboration, technical inquiries, and stakeholder engagement
-            regarding the proposed Ghitorni bioenergy initiative.
+            regarding the proposed bioenergy initiative.
           </p>
         </div>
       </section>
@@ -132,7 +132,7 @@ export default function ContactPage() {
       <section className="section content-page" aria-labelledby="contact-heading">
         <div className="container">
           <div className="grid lg:grid-cols-12 gap-12">
-            {/* Left Column: Factual Status & Project Location */}
+            {/* Left Column: Factual Status & Company Details */}
             <div className="lg:col-span-6 space-y-8">
               <div>
                 <div className="micro text-[#267655] mb-2">COMMUNICATION TRANSPARENCY</div>
@@ -141,7 +141,7 @@ export default function ContactPage() {
                 </h2>
                 <p className="text-[#5d6e63] text-sm md:text-base leading-relaxed mt-3">
                   Humus Waste &amp; Energy Management (HW&amp;EM) is currently progressing through project feasibility,
-                  statutory clearances, and initial stakeholder outreach for the proposed Ghitorni facility.
+                  statutory clearances, and initial stakeholder outreach for the proposed facility.
                 </p>
               </div>
 
@@ -153,21 +153,23 @@ export default function ContactPage() {
                     <h3 className="font-bold text-lg text-[#123d2c]">Official Project Correspondence</h3>
                     <p className="text-xs text-[#5d6e63] leading-relaxed mt-2">
                       Inquiries for prospective feedstock supply agreements, technical dialogue, and project collaboration
-                      are actively received at <strong>humuswasteandenergy@gmail.com</strong>. Corporate telephone switchboards
-                      and headquarters physical office registrations are currently completing statutory setup.
+                      are actively received at <strong>humuswasteandenergy@gmail.com</strong>.
                     </p>
                   </div>
                 </div>
               </div>
 
-              {/* Location & Site Details */}
+              {/* Company Details */}
               <div className="bg-white p-7 rounded-2xl border border-[#d8dfd3] shadow-sm space-y-4">
-                <h3 className="font-bold text-lg text-[#123d2c]">Proposed Facility Details</h3>
+                <h3 className="font-bold text-lg text-[#123d2c]">Company Details</h3>
                 <div className="flex items-start gap-3 text-sm text-[#1e3026]">
-                  <MapPin className="w-5 h-5 text-[#267655] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong>Proposed Site Location:</strong>
-                    <p className="text-xs text-[#5d6e63] mt-0.5">Ghitorni, New Delhi, India (Approx. 4-acre indicative site)</p>
+                  <Building2 className="w-5 h-5 text-[#267655] flex-shrink-0 mt-0.5" />
+                  <div className="space-y-3">
+                    <strong>{site.company.name}</strong>
+                    <p className="text-xs text-[#5d6e63]">
+                      <strong>CIN:</strong> {site.company.cin}
+                    </p>
+                    <p className="text-xs text-[#5d6e63]">Incorporated in {site.company.incorporationYear}</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 text-sm text-[#1e3026]">
@@ -184,13 +186,6 @@ export default function ContactPage() {
                     </p>
                   </div>
                 </div>
-                <div className="flex items-start gap-3 text-sm text-[#1e3026]">
-                  <Phone className="w-5 h-5 text-[#267655] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong>Direct Telephony:</strong>
-                    <p className="text-xs text-[#5d6e63] mt-0.5">Official phone lines undergoing commercial setup</p>
-                  </div>
-                </div>
               </div>
 
               {/* Stakeholder FAQ Accordions / Highlights */}
@@ -202,13 +197,13 @@ export default function ContactPage() {
                   <div>
                     <strong className="block text-[#123d2c]">Is the facility operational today?</strong>
                     <p className="text-[#5d6e63] mt-1">
-                      No. The Ghitorni project is a proposed facility undergoing pre-development feasibility and statutory clearances.
+                      No. The project is a proposed facility undergoing pre-development feasibility and statutory clearances.
                     </p>
                   </div>
                   <div className="pt-3 border-t border-[#d8dfd3]">
-                    <strong className="block text-[#123d2c]">Is the IGL offtake agreement finalized?</strong>
+                    <strong className="block text-[#123d2c]">Are offtake agreements with gas distribution companies finalized?</strong>
                     <p className="text-[#5d6e63] mt-1">
-                      The agreement with Indraprastha Gas Limited is proposed under a bilateral framework and has not yet been executed.
+                      Agreements with gas distribution companies are proposed under a bilateral framework and have not yet been executed.
                     </p>
                   </div>
                   <div className="pt-3 border-t border-[#d8dfd3]">
@@ -275,7 +270,7 @@ export default function ContactPage() {
                     </div>
 
                     <p className="text-[11px] text-[#718076] max-w-sm mx-auto leading-normal">
-                      The Humus Waste &amp; Energy Management coordination team coordinates with organic waste generators within 15 km of the proposed Ghitorni facility.
+                      The Humus Waste &amp; Energy Management coordination team coordinates with organic waste generators within 15 km of the proposed facility.
                     </p>
 
                     <div className="pt-2">

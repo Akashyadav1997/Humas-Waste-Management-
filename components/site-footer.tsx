@@ -33,11 +33,11 @@ export function SiteFooter() {
             </div>
           </div>
           <div>
-            <div className="micro">Location</div>
+            <div className="micro">Company Details</div>
             <div className="footer-links">
-              <span>Ghitorni</span>
-              <span>New Delhi, India</span>
-              <span className="text-[#89a893] text-xs">Proposed project site</span>
+              <span>{site.company.name}</span>
+              <span>CIN: {site.company.cin}</span>
+              <span className="text-[#89a893] text-xs">Incorporated in {site.company.incorporationYear}</span>
             </div>
           </div>
         </div>

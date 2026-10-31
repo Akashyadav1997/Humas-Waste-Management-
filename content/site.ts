@@ -1,4 +1,9 @@
 export const site = {
+  company: {
+    name: "HUMUS WASTE AND ENERGY MANAGEMENT PRIVATE LIMITED.",
+    cin: "U35200DL2026PTC469952",
+    incorporationYear: 2026,
+  },
   brand: {
     shortName: "HUMUS.",
     name: "Waste & Energy Management",
@@ -121,7 +126,7 @@ export const site = {
         badge: "Energy pathway",
         title: "Upgraded biomethane (CBG)",
         detail:
-          "Two-stage hollow-fibre membrane filters, compression, and proposed injection into Indraprastha Gas Limited (IGL) network for household stoves.",
+          "Two-stage hollow-fibre membrane filters, compression, and proposed injection into networks operated by gas distribution companies for household stoves.",
         status: "Proposed offtake agreement; subject to quality standards, connectivity, and approvals.",
       },
       {
@@ -145,7 +150,7 @@ export const site = {
       { label: "Technology", value: "Mesophilic anaerobic digestion and two-stage membrane gas upgrading" },
       { label: "Target Output", value: "3.5 TPD CBG (180.46 MMBTU/day / 1,277 T/year PNG)" },
       { label: "Indicative Land", value: "Approx. 4 acres" },
-      { label: "Offtake Framework", value: "Proposed bilateral offtake agreement with IGL (not signed)" },
+      { label: "Offtake Framework", value: "Proposed bilateral offtake agreements with gas distribution companies (not signed)" },
       { label: "Project Status", value: "Proposed; subject to feasibility, approvals, and commercial agreements" },
     ],
     cta: { label: "Understand the project", href: "/project" },
@@ -211,23 +216,21 @@ export const site = {
     compression: "High-pressure compressor configured for pipeline injection pressure standards",
     dewatering: "SLS unit for digestate solid-liquid dewatering separation",
     fertilizerOutputs: "Solid Organic Fertilizer (SOF / vermicompost / aerobic compost) and Liquid Fermented Organic Manure (LFOM)",
-    offtake: "Proposed Bilateral Agreement with Indraprastha Gas Limited (IGL) for retail-grade CBG injection into city gas network (proposed; not signed)",
+    offtake: "Proposed bilateral agreements with gas distribution companies for retail-grade CBG injection into city gas networks (proposed; not signed)",
     discrepancyNote: "Note: Primary design throughput targets 3.5 TPD CBG (180.46 MMBTU/day). One engineering flow chart in project documentation references 3.0 TPD; flagged for owner/engineer verification prior to final financial close.",
   },
   contact: {
     email: "humuswasteandenergy@gmail.com",
-    location: "Ghitorni, New Delhi, India",
-    statusNote: "Official project email active. Dedicated phone switchboard and corporate office addresses undergoing final commercial setup.",
+    statusNote: "Official project email active.",
   },
   contactPending: {
     email: "humuswasteandenergy@gmail.com",
     status: "Official Project Email Active",
-    note: "For feedstock collaboration, technical queries, and prospective partnerships, correspondence is actively received at humuswasteandenergy@gmail.com. Corporate telephone switchboard and registered postal headquarters are undergoing statutory incorporation.",
-    locationText: "Proposed Project Location: Ghitorni, New Delhi, India",
+    note: "For feedstock collaboration, technical queries, and prospective partnerships, correspondence is actively received at humuswasteandenergy@gmail.com.",
   },
   footer: {
     disclaimer:
-      "Humus Waste & Energy Management is a proposed renewable-energy initiative. Production capacities, technical configurations, and facility graphics represent planning concepts and are subject to detailed engineering, statutory approvals, and formal agreements. Offtake arrangements with Indraprastha Gas Limited (IGL) are proposed and not yet executed. No operational status, current production, or commercial endorsement is claimed.",
+      "Humus Waste & Energy Management is a proposed renewable-energy initiative. Production capacities, technical configurations, and facility graphics represent planning concepts and are subject to detailed engineering, statutory approvals, and formal agreements. Offtake arrangements with gas distribution companies are proposed and not yet executed. No operational status, current production, or commercial endorsement is claimed.",
     copyright: "© 2026 Humus Waste & Energy Management. Concept website.",
     tagline: "Renewing waste for clean energy. A proposed initiative connecting urban organic waste recovery, renewable biogas, and sustainable soil regeneration.",
   },

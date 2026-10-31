@@ -70,7 +70,7 @@ export default function ProjectPage() {
                 </div>
                 <div>
                   <b>Offtake Framework</b>
-                  <span>Proposed Bilateral Agreement with Indraprastha Gas Limited (IGL) — not signed</span>
+                  <span>Proposed bilateral agreements with gas distribution companies — not signed</span>
                 </div>
               </div>
             </div>
@@ -182,8 +182,8 @@ export default function ProjectPage() {
                 <FileText className="w-8 h-8 text-[#267655] mb-4" />
                 <h3 className="text-xl font-bold mb-2 text-[#123d2c]">Gas Grid Offtake Proximity</h3>
                 <p className="text-sm text-[#5d6e63] leading-relaxed">
-                  Strategic proximity to city gas distribution infrastructure under the proposed Indraprastha Gas Limited (IGL)
-                  grid injection framework, minimizing compression and pipeline extension costs.
+                  Strategic proximity to city gas distribution infrastructure under the proposed
+                  grid injection framework with gas distribution companies, minimizing compression and pipeline extension costs.
                 </p>
               </div>
             </div>
@@ -284,17 +284,17 @@ export default function ProjectPage() {
           <div className="mt-16 bg-[#ffffff] border border-[#d8dfd3] rounded-[18px] p-8 md:p-10">
             <div className="micro text-[#267655] mb-2">COMMERCIAL OFFTAKE FRAMEWORK</div>
             <h3 className="text-2xl font-bold text-[#123d2c] mb-3">
-              Proposed Bilateral Agreement with Indraprastha Gas Limited (IGL)
+              Proposed Bilateral Agreements with Gas Distribution Companies
             </h3>
             <p className="text-sm md:text-base text-[#5d6e63] leading-relaxed mb-4">
-              To ensure long-term commercial bankability and revenue certainty, a Bilateral Agreement is proposed to be entered
-              into with Indraprastha Gas Limited (IGL) for the offtake and marketing of Compressed Biogas under applicable
+              To ensure long-term commercial bankability and revenue certainty, bilateral agreements are proposed to be entered
+              into with gas distribution companies for the offtake and marketing of Compressed Biogas under applicable
               regulatory and commercial frameworks.
             </p>
             <p className="text-sm text-[#5d6e63] leading-relaxed mb-6">
               The upgraded biomethane will be compressed to meet applicable gas quality, pressure, and safety requirements
-              specified by IGL for injection into the city gas distribution network serving household kitchen stoves across the
-              National Capital. This arrangement remains proposed and subject to pipeline connectivity, gas testing certification,
+              specified by gas distribution companies for injection into city gas distribution networks serving household kitchen stoves across the
+              National Capital. These arrangements remain proposed and subject to pipeline connectivity, gas testing certification,
               and mutually executed contracts.
             </p>
             <div className="flex flex-wrap gap-4">

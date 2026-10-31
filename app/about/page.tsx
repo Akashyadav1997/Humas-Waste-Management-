@@ -166,8 +166,8 @@ export default function AboutPage() {
                 <li className="flex items-start gap-3 text-sm text-[#1e3026]">
                   <ShieldCheck className="w-5 h-5 text-[#267655] flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong>Proposed Commercial Offtake:</strong> Offtake arrangements with Indraprastha Gas Limited (IGL)
-                    are under commercial and regulatory evaluation as a proposed bilateral agreement; no binding agreement has been signed.
+                    <strong>Proposed Commercial Offtake:</strong> Offtake arrangements with gas distribution companies
+                    are under commercial and regulatory evaluation as proposed bilateral agreements; no binding agreement has been signed.
                   </span>
                 </li>
                 <li className="flex items-start gap-3 text-sm text-[#1e3026]">

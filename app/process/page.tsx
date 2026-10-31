@@ -152,9 +152,9 @@ export default function ProcessPage() {
                     <span>Storage:</span>
                     <strong className="text-white">Two holders (5,000 m³ total)</strong>
                   </div>
-                  <div className="flex justify-between">
+                  <div className="flex flex-wrap justify-between gap-2">
                     <span>Offtake Destination:</span>
-                    <strong className="text-[#d3e9a2]">Proposed IGL network injection</strong>
+                    <strong className="text-[#d3e9a2]">Proposed network injection via gas distribution companies</strong>
                   </div>
                 </div>
               </div>
