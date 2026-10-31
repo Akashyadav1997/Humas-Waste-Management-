@@ -1,3 +1,5 @@
+const contactEmail = "contact@hwaem.com";
+
 export const site = {
   company: {
     name: "HUMUS WASTE AND ENERGY MANAGEMENT PRIVATE LIMITED.",
@@ -220,13 +222,13 @@ export const site = {
     discrepancyNote: "Note: Primary design throughput targets 3.5 TPD CBG (180.46 MMBTU/day). One engineering flow chart in project documentation references 3.0 TPD; flagged for owner/engineer verification prior to final financial close.",
   },
   contact: {
-    email: "humuswasteandenergy@gmail.com",
+    email: contactEmail,
     statusNote: "Official project email active.",
   },
   contactPending: {
-    email: "humuswasteandenergy@gmail.com",
+    email: contactEmail,
     status: "Official Project Email Active",
-    note: "For feedstock collaboration, technical queries, and prospective partnerships, correspondence is actively received at humuswasteandenergy@gmail.com.",
+    note: `For feedstock collaboration, technical queries, and prospective partnerships, correspondence is actively received at ${contactEmail}.`,
   },
   footer: {
     disclaimer:

@@ -153,7 +153,7 @@ export default function ContactPage() {
                     <h3 className="font-bold text-lg text-[#123d2c]">Official Project Correspondence</h3>
                     <p className="text-xs text-[#5d6e63] leading-relaxed mt-2">
                       Inquiries for prospective feedstock supply agreements, technical dialogue, and project collaboration
-                      are actively received at <strong>humuswasteandenergy@gmail.com</strong>.
+                      are actively received at <strong>{site.contact.email}</strong>.
                     </p>
                   </div>
                 </div>
@@ -178,10 +178,10 @@ export default function ContactPage() {
                     <strong>Project Correspondence:</strong>
                     <p className="text-xs text-[#5d6e63] mt-0.5">
                       <a
-                        href="mailto:humuswasteandenergy@gmail.com"
+                        href={`mailto:${site.contact.email}`}
                         className="text-[#267655] font-semibold hover:underline"
                       >
-                        humuswasteandenergy@gmail.com
+                        {site.contact.email}
                       </a>
                     </p>
                   </div>
@@ -240,7 +240,7 @@ export default function ContactPage() {
                       </h4>
                     </div>
                     <p className="text-xs text-[#5d6e63] leading-relaxed max-w-md mx-auto">
-                      Thank you, <strong>{formData.name}</strong>. Your inquiry from <strong>{formData.organization}</strong> has been received and routed directly to <strong>humuswasteandenergy@gmail.com</strong>.
+                      Thank you, <strong>{formData.name}</strong>. Your inquiry from <strong>{formData.organization}</strong> has been submitted successfully.
                     </p>
 
                     {/* Inquiry parameters recap */}
@@ -389,7 +389,7 @@ export default function ContactPage() {
                     <div className="disclaimer-box flex items-start gap-2.5 text-xs text-[#5d6e63]">
                       <AlertCircle className="w-4 h-4 text-[#267655] flex-shrink-0 mt-0.5" />
                       <span>
-                        Inquiries are dispatched directly to the official project desk at <strong>humuswasteandenergy@gmail.com</strong>.
+                        For direct correspondence, email the official project desk at <strong>{site.contact.email}</strong>.
                       </span>
                     </div>
 
@@ -401,7 +401,7 @@ export default function ContactPage() {
                         </div>
                         <div className="pt-1 flex flex-wrap gap-2">
                           <a
-                            href={`mailto:humuswasteandenergy@gmail.com?subject=${encodeURIComponent(
+                            href={`mailto:${site.contact.email}?subject=${encodeURIComponent(
                               `HW&EM Feedstock Inquiry: ${formData.organization} (${formData.name})`
                             )}&body=${encodeURIComponent(
                               `Contact Name: ${formData.name}\nOrganization: ${formData.organization}\nEmail: ${formData.email}\nGenerator Category: ${categoryLabels[formData.category] || formData.category}\nEstimated Waste Volume: ${formData.volume || "Not specified"}\n\nProject / Technical Message:\n${formData.message || "N/A"}`

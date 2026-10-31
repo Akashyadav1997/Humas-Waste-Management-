@@ -25,10 +25,10 @@ export function SiteFooter() {
               <Link href="/partners">Partnerships</Link>
               <Link href="/contact">Contact</Link>
               <a
-                href="mailto:humuswasteandenergy@gmail.com"
+                href={`mailto:${site.contact.email}`}
                 className="text-[#d0dfd2] hover:text-white transition-colors truncate"
               >
-                humuswasteandenergy@gmail.com
+                {site.contact.email}
               </a>
             </div>
           </div>
