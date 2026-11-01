@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { AlertCircle, ArrowUpRight, Factory, FileText, MapPin } from "lucide-react";
+import { ArrowUpRight, Factory, FileText, MapPin } from "lucide-react";
 import { site } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "Our Project",
   description:
-    "Comprehensive engineering specifications and planning details for the proposed 3.5 TPD compressed biogas facility in Ghitorni, New Delhi.",
+    "Comprehensive engineering specifications and planning details for the proposed 3 TPD compressed biogas facility in Ghitorni, New Delhi.",
 };
 
 export default function ProjectPage() {
@@ -21,7 +21,7 @@ export default function ProjectPage() {
           </h1>
           <p>
             Detailed engineering parameters, site requirements, and proposed technology configuration
-            for the 3.5 TPD compressed biogas and organic fertilizer initiative in Ghitorni.
+            for the 3 TPD compressed biogas and organic fertilizer initiative in Ghitorni.
           </p>
         </div>
       </section>
@@ -58,7 +58,7 @@ export default function ProjectPage() {
                 </div>
                 <div>
                   <b>Target Output</b>
-                  <span>3.5 TPD CBG (180.46 MMBTU/day / 1,277 T/year PNG)</span>
+                  <span>3 TPD CBG</span>
                 </div>
                 <div>
                   <b>Indicative Land</b>
@@ -217,7 +217,7 @@ export default function ProjectPage() {
                 <tr>
                   <td>Design CBG Output Capacity</td>
                   <td>
-                    <strong>3.5 TPD CBG</strong> (equivalent to 180.46 MMBTU/day daily pipeline dispatch; 1,277 T/year annual PNG throughput)
+                    <strong>3 TPD CBG</strong>
                   </td>
                 </tr>
                 <tr>
@@ -270,14 +270,6 @@ export default function ProjectPage() {
                 </tr>
               </tbody>
             </table>
-
-            {/* Factual Transparency Note */}
-            <div className="disclaimer-box flex items-start gap-3 mt-6">
-              <AlertCircle className="w-5 h-5 text-[#267655] flex-shrink-0 mt-0.5" />
-              <div>
-                <strong>Owner Verification Flag:</strong> {site.technicalSpecs.discrepancyNote}
-              </div>
-            </div>
           </div>
 
           {/* Offtake Status Callout */}

@@ -142,7 +142,7 @@ export default function ProcessPage() {
                 <div className="bg-[#0b2b20] p-4 rounded-xl border border-white/10 space-y-2 text-xs text-[#d0dfd2]">
                   <div className="flex justify-between">
                     <span>Target Output:</span>
-                    <strong className="text-white">3.5 TPD CBG (180.46 MMBTU/day)</strong>
+                    <strong className="text-white">3 TPD CBG</strong>
                   </div>
                   <div className="flex justify-between">
                     <span>Purification:</span>

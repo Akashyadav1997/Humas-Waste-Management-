@@ -43,7 +43,7 @@ export default function PartnersPage() {
               <div className="micro text-[#267655] mb-2">SOURCING PHILOSOPHY</div>
               <h2 id="partners-overview">Why local partnerships matter.</h2>
               <p>
-                A continuous 3.5 TPD compressed biogas facility requires a steady, high-quality stream of segregated
+                A continuous 3 TPD compressed biogas facility requires a steady, high-quality stream of segregated
                 biodegradable feedstock. By partnering directly with bulk waste generators, we can ensure waste is sorted
                 at source, preserving its organic energy value while diverting tons of discard away from overflowing landfills.
               </p>

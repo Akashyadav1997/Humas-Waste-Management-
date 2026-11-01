@@ -765,6 +765,187 @@ img {
   background: rgba(255, 255, 255, 0.6);
 }
 
+/* Vision: national opportunity and local impact */
+.vision {
+  background: #eaf0e5;
+  border-top: 1px solid var(--line);
+}
+
+.vision-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  align-items: center;
+  gap: clamp(32px, 6vw, 88px);
+}
+
+.vision-copy > .micro {
+  margin-bottom: 24px;
+}
+
+.vision .section-heading {
+  margin-bottom: 26px;
+}
+
+.vision .section-heading em {
+  display: block;
+}
+
+.vision .section-description {
+  max-width: 560px;
+}
+
+.vision-outcomes {
+  display: grid;
+  gap: 26px;
+  margin-top: 36px;
+}
+
+.vision-outcome {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.vision-icon {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #c6d5bd;
+  border-radius: 50%;
+  color: var(--green);
+}
+
+.vision-outcome h3 {
+  color: var(--forest);
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.vision-outcome p {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.vision-opportunity {
+  padding: clamp(24px, 3vw, 44px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+  color: var(--forest);
+}
+
+.vision-opportunity > .micro {
+  color: var(--green);
+  margin-bottom: 18px;
+}
+
+.vision-opportunity h3 {
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(28px, 2.7vw, 38px);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+}
+
+.vision-context {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.vision-inputs {
+  margin-top: 26px;
+}
+
+.vision-inputs > div {
+  display: flex;
+  flex-direction: column;
+  padding: 22px 0;
+  border-top: 1px solid var(--line);
+}
+
+.vision-inputs dt {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
+  margin-top: 8px;
+}
+
+.vision-inputs dd {
+  order: -1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.vision-inputs strong {
+  font-size: clamp(42px, 4vw, 56px);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.06em;
+}
+
+.vision-inputs dd span {
+  font-size: 12px;
+}
+
+.vision-recovery {
+  background: var(--forest);
+  color: var(--white);
+  border-radius: 12px;
+  padding: 22px;
+  margin-top: 4px;
+}
+
+.vision-recovery > .micro {
+  color: var(--lime);
+  line-height: 1.7;
+}
+
+.vision-outputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 16px;
+}
+
+.vision-outputs > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.vision-outputs > div + div {
+  border-left: 1px solid #51705c;
+  padding-left: 20px;
+}
+
+.vision-outputs dd {
+  order: -1;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+
+.vision-outputs dt {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.vision-note {
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.7;
+  margin-top: 18px;
+}
+
 /* Process Section (Deep Pine) */
 .process {
   background: var(--forestdeep);
@@ -853,7 +1034,7 @@ img {
   margin-top: 20px;
 }
 
-.pathway div {
+.pathway > div {
   border-radius: 12px;
   padding: 26px 30px;
   background: #204b38;
@@ -861,6 +1042,11 @@ img {
   align-items: flex-start;
   gap: 18px;
   border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pathway > div > div {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .pathway svg {
@@ -1524,6 +1710,11 @@ img {
   }
 
   /* Sections Mobile */
+  .vision-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
   .section {
     padding: 70px 0;
   }
@@ -1560,7 +1751,7 @@ img {
   .step::before {
     margin-bottom: 20px;
   }
-  .pathway div {
+  .pathway > div {
     padding: 20px;
   }
 

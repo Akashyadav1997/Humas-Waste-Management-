@@ -40,7 +40,7 @@ The menu is the only interactive client component. Other page sections render on
 ## Content and image decisions
 
 - The facility remains explicitly **proposed**, with feasibility and approvals outstanding.
-- 3.5 TPD, 4 acres, and a 15 km collection radius are proposal figures, not operational results.
+- 3 TPD, 4 acres, and a 15 km collection radius are proposal figures, not operational results.
 - No IGL logo, confirmed partnership, pipeline connection, carbon saving, testimonial, or certification is claimed.
 - The facility artwork was made with built-in Image Gen and is visibly labeled as a concept, not a site photograph. It is not engineering documentation or an accurate site layout.
 - The user's three photographs were visible in chat, but source image files were not available in the attachment directory or among matching local Downloads images. They are not recreated or represented as generated substitutes. The seedling-in-hands photograph would be a strong candidate for a later soil/farming section once its original file is available.

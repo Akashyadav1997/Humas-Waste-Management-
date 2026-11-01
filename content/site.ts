@@ -56,9 +56,9 @@ export const site = {
   metrics: [
     {
       label: "PROPOSED CBG OUTPUT",
-      value: "3.5 TPD",
+      value: "3 TPD",
       note: "Target production capacity*",
-      annotation: "Design throughput (180.46 MMBTU/day, 1,277 T/year PNG)",
+      annotation: "Proposed compressed biogas production capacity",
     },
     {
       label: "INDICATIVE SITE REQUIREMENT",
@@ -88,6 +88,40 @@ export const site = {
       src: "/images/yellow-flower.png",
       alt: "A small yellow flower growing out of dark, fertile compost soil",
       caption: "From waste, possibility.",
+    },
+  },
+  vision: {
+    eyebrow: "OUR VISION",
+    title: "Energy for India.",
+    titleItalic: "Goodness for the earth.",
+    description:
+      "Our vision is to build a biogas plant that turns kitchen waste into clean energy, and the plant’s fermented organic manure (FOM) into compost and vermicompost. One circular approach to power our communities and nourish our farms.",
+    outcomes: [
+      {
+        title: "A more energy-independent India",
+        description:
+          "Locally produced compressed biogas (CBG) can help reduce our reliance on imported fossil fuels and conserve foreign exchange reserves — unlocking the energy potential of everyday kitchen waste.",
+      },
+      {
+        title: "A stronger future for organic farming",
+        description:
+          "Compost and vermicompost from FOM can help farmers restore their soil and reduce dependence on chemical fertilizers, supporting India’s ambition to expand organic farming.",
+      },
+    ],
+    opportunity: {
+      eyebrow: "THE NATIONAL OPPORTUNITY",
+      title: "Small scraps. Immense potential.",
+      context: "The annual scale envisioned for India",
+      inputs: [
+        { value: "33.21", unit: "million tonnes", label: "Estimated annual LPG consumption" },
+        { value: "78.2", unit: "million tonnes", label: "Estimated household kitchen waste per year" },
+      ],
+      recoveryLabel: "Potential recovery from kitchen waste",
+      outputs: [
+        { value: "3%", label: "Biogas" },
+        { value: "25%", label: "Organic compost" },
+      ],
+      note: "Indicative estimates from our vision. Actual recovery depends on feedstock and processing conditions.",
     },
   },
   processSection: {
@@ -150,7 +184,7 @@ export const site = {
     facts: [
       { label: "Location", value: "Ghitorni, New Delhi" },
       { label: "Technology", value: "Mesophilic anaerobic digestion and two-stage membrane gas upgrading" },
-      { label: "Target Output", value: "3.5 TPD CBG (180.46 MMBTU/day / 1,277 T/year PNG)" },
+      { label: "Target Output", value: "3 TPD CBG" },
       { label: "Indicative Land", value: "Approx. 4 acres" },
       { label: "Offtake Framework", value: "Proposed bilateral offtake agreements with gas distribution companies (not signed)" },
       { label: "Project Status", value: "Proposed; subject to feasibility, approvals, and commercial agreements" },
@@ -219,7 +253,6 @@ export const site = {
     dewatering: "SLS unit for digestate solid-liquid dewatering separation",
     fertilizerOutputs: "Solid Organic Fertilizer (SOF / vermicompost / aerobic compost) and Liquid Fermented Organic Manure (LFOM)",
     offtake: "Proposed bilateral agreements with gas distribution companies for retail-grade CBG injection into city gas networks (proposed; not signed)",
-    discrepancyNote: "Note: Primary design throughput targets 3.5 TPD CBG (180.46 MMBTU/day). One engineering flow chart in project documentation references 3.0 TPD; flagged for owner/engineer verification prior to final financial close.",
   },
   contact: {
     email: contactEmail,
